@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+//生成 proto 文件名
+option java_outer_classname="ReliveTalkBulletProto";
+
+message ReLiveTalkBullet {
+    string userName = 1;
+    int32 type = 2;
+    string content = 3;
+    int32 sendRelativeTime = 4;
+    string positionName = 5;
+    string expand = 6;
+}
+
+message ReLiveTalkBulletList {
+    repeated ReLiveTalkBullet re_live_talk_bullets = 1;
+}
