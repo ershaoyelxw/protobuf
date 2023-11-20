@@ -1,6 +1,9 @@
-const protobuf = require('./protobuf')
-const chat = require('./chat')
-const axios = require('axios')
+// const protobuf = require('./protobuf')
+// const chat = require('./chat')
+// const axios = require('axios')
+import protobuf from './protobuf'
+import chat from './chat'
+import axios from 'axios'
 
 const url = 'https://bsy-public-web-1308012692.cos.ap-guangzhou.myqcloud.com/bc/release/resources/bulletFile/8143c08d743f1801eb3bb6b4ef10a1f6.pb'
 
