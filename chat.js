@@ -28,6 +28,10 @@ module.exports = {
         "expand": {
           "type": "string",
           "id": 6
+        },
+        "positionId": {
+          "type": "string",
+          "id": 7
         }
       }
     },

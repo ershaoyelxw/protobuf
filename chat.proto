@@ -10,6 +10,7 @@ message ReLiveTalkBullet {
     int32 sendRelativeTime = 4;
     string positionName = 5;
     string expand = 6;
+    string positionId = 7;
 }
 
 message ReLiveTalkBulletList {
